@@ -46,35 +46,27 @@ table{
     height: 85px;
     padding: 5px 10%;
 }
-
 .header .nom{
     cursor: pointer;
 }
-
-
 .header .links{
     list-style: none;
 }
-
 .header .links li{
     display: inline-block;
     padding: 0 20px;    
 }
-
 .header .links li:hover{
     transform: scale(1.1);
 }
-
 .header .links a{
     font-size: 700;
     color: #eceff1;
     text-decoration: none;    
 }
-
 .header .links li a:hover{
     color: #ffbc0e;
 }
-
 .header .btn button{
     font-weight: 700;
     color: #2c474e;
@@ -109,18 +101,13 @@ nav ul li{
         background-color: blue;
     }
 }
-/* If screen size is LESS than 1200px wide */
 @media (max-width: 1200px){ 
-        /* Styles! */
+        
 }
-
-/* If screen size is MORE than 800px wide */
 @media (min-width: 800px){ 
-        /* Styles! */
+        
 }
-
-/* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
 @media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
-        /* Styles! */
+        
 }
 
