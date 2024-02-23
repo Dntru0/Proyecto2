@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+}
+div h1{
+    color: black;
+    padding-top: 40px;
+    padding-left: 0px;
+    font-size: xx-large;
+}
+h2{
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 160px;
+    font-size: medium;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 30px 20px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.nom h1{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    font-size: small;
+}
+.header{
+    background-color: #2d3453;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .nom{
+    cursor: pointer;
+}
+
+
+.header .links{
+    list-style: none;
+}
+
+.header .links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .links li:hover{
+    transform: scale(1.1);
+}
+
+.header .links a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;    
+}
+
+.header .links li a:hover{
+    color: #ffbc0e;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #2c474e;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+ul li{
+    height: 4em;
+    margin: 1em;
+    font-size: medium;
+}
+nav ul li{
+    margin: 0;
+    height: 0;
+}
+
